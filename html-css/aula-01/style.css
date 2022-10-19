@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(26, 13, 75);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titulo {
+  font-family: Arial;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: yellow;
+  text-align: center;
+  text-decoration: underline;
+}
+.fontgoogle {
+  color: green;
+  font-family: "Sacramento", cursiva;
+  font-size: 30px;
+  text-align: center;
+}
+.texto1 {
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  color: white;
+  text-align: justify;
+  line-height: 2;
+}
+.heranca {
+  font-family: Verdana;
+  color: rgb(166, 234, 18);
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
+}
+.foto1 {
+  max-width: 200px;
+}
+.foto2 {
+  max-width: 245px;
+}
