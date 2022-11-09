@@ -1,6 +1,6 @@
-function register(ev) {
-    console.log(ev)
-    const sectionElement = ev.currentTarget.parentNode
+function register(element) {
+    console.log(element)
+    const sectionElement = element.currentTarget.parentNode
     const username = sectionElement.children.username.value
     const password = sectionElement.children.password.value
     const passwordConfirmation = sectionElement.children.passwordConfirmation.value
@@ -21,6 +21,6 @@ function register(ev) {
   
   button.addEventListener("click", register)
   
-  button.addEventListener("mouseover", function (ev) {
-    console.log(ev)
+  button.addEventListener("mouseover", function (element) {
+    console.log(element)
   })
